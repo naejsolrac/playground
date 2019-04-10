@@ -1,0 +1,3 @@
+# Playground
+
+Lugar reservado para fazer testes e experiências. Não espere encontrar ouro por aqui...
