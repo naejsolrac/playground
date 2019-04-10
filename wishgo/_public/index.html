@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+  <title>WishGo</title>
+</head>
+<body>
+
+<div id="nav" class="container">
+  <nav class="navbar navbar-expand-lg navbar-expand-md">
+    <a class="navbar-brand" href="#"><img src="images/wishgo-logo.png" alt="WishGo Logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarFull" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarFull">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Seja um anfitrião</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Seja um investidor</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Dúvidas</a>
+        </li>
+
+        <form method="get" id="formlang">
+        <li class="nav-item">&nbsp;
+            <select name="l" style="" onchange="this.form.submit()">
+              <option value="de">Deutsch</option>
+              <option value="es">Español</option>
+              <option value="en">English</option>
+              <option value="pt" selected="">Português</option>
+            </select>
+        </li>
+        <input type="hidden" name="c" value="brl">
+       </form>
+
+      </ul>
+
+    </div>
+  </nav>
+</div>
+
+<section class="hero">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-2">
+
+        <img src="images/wishgo-full-logo.png" alt="WishGo Full Logo">
+        <p>Places you want, places you go.</p>
+
+      </div>
+
+      <div class="col-9 offset-md-1">
+        <form action="">
+          <div class="form-row">
+            <div class="col">
+              <input type="text" name="search" placeholder="Lugares que você deseja" class="form-control">
+            </div>
+            <button type="submit">GO</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="wished-places">
+  <div class="container">
+    <h2 class="header">
+      Lugares desejados
+    </h2>
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="place">
+          <span class="tag">Apartamento completo</span>
+          <img src="https://via.placeholder.com/350x200" alt="Piscina Solar Tambaú" class="img-fluid">
+          <p class="title">João Pessoa - Solar Tambaú</p>
+          <p class="desc">
+            R$ 1200 por dia <br>
+            3 Quartos de frente para o mar <br>
+            Cancelamento gratuíto
+          </p>
+          <div class="rating">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 245
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="place">
+          <span class="tag">Apartamento completo</span>
+          <img src="https://via.placeholder.com/350x200" alt="Piscina Solar Tambaú" class="img-fluid">
+          <p class="title">João Pessoa - Solar Tambaú</p>
+          <p class="desc">
+            R$ 1200 por dia <br>
+            3 Quartos de frente para o mar <br>
+            Cancelamento gratuíto
+          </p>
+          <div class="rating">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 245
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="place">
+          <span class="tag">Apartamento completo</span>
+          <img src="https://via.placeholder.com/350x200" alt="Piscina Solar Tambaú" class="img-fluid">
+          <p class="title">João Pessoa - Solar Tambaú</p>
+          <p class="desc">
+            R$ 1200 por dia <br>
+            3 Quartos de frente para o mar <br>
+            Cancelamento gratuíto
+          </p>
+          <div class="rating">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 245
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row margin-top">
+      <div class="col-md-4">
+        <div class="place">
+          <span class="tag">Apartamento completo</span>
+          <img src="https://via.placeholder.com/350x200" alt="Piscina Solar Tambaú" class="img-fluid">
+          <p class="title">João Pessoa - Solar Tambaú</p>
+          <p class="desc">
+            R$ 1200 por dia <br>
+            3 Quartos de frente para o mar <br>
+            Cancelamento gratuíto
+          </p>
+          <div class="rating">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 245
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="place">
+          <span class="tag">Apartamento completo</span>
+          <img src="https://via.placeholder.com/350x200" alt="Piscina Solar Tambaú" class="img-fluid">
+          <p class="title">João Pessoa - Solar Tambaú</p>
+          <p class="desc">
+            R$ 1200 por dia <br>
+            3 Quartos de frente para o mar <br>
+            Cancelamento gratuíto
+          </p>
+          <div class="rating">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 245
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="place">
+          <span class="tag">Apartamento completo</span>
+          <img src="https://via.placeholder.com/350x200" alt="Piscina Solar Tambaú" class="img-fluid">
+          <p class="title">João Pessoa - Solar Tambaú</p>
+          <p class="desc">
+            R$ 1200 por dia <br>
+            3 Quartos de frente para o mar <br>
+            Cancelamento gratuíto
+          </p>
+          <div class="rating">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 245
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#" rel="Acomodações">Veja todas as acomodações</a>
+  </div>
+</section>
+
+<section class="experiences">
+  <div class="container">
+    <h2 class="header">
+      Experiências
+    </h2>
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="place">
+          <img src="https://via.placeholder.com/350x200" alt="Piscina Solar Tambaú" class="img-fluid">
+          <p class="title">João Pessoa - Solar Tambaú</p>
+          <p class="desc">
+            R$ 1200 por dia <br>
+            3 Quartos de frente para o mar <br>
+            Cancelamento gratuíto
+          </p>
+          <div class="rating">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 245
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="place">
+          <img src="https://via.placeholder.com/350x200" alt="Piscina Solar Tambaú" class="img-fluid">
+          <p class="title">João Pessoa - Solar Tambaú</p>
+          <p class="desc">
+            R$ 1200 por dia <br>
+            3 Quartos de frente para o mar <br>
+            Cancelamento gratuíto
+          </p>
+          <div class="rating">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 245
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="place">
+          <img src="https://via.placeholder.com/350x200" alt="Piscina Solar Tambaú" class="img-fluid">
+          <p class="title">João Pessoa - Solar Tambaú</p>
+          <p class="desc">
+            R$ 1200 por dia <br>
+            3 Quartos de frente para o mar <br>
+            Cancelamento gratuíto
+          </p>
+          <div class="rating">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 245
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row margin-top">
+      <div class="col-md-4">
+        <div class="place">
+          <img src="https://via.placeholder.com/350x200" alt="Piscina Solar Tambaú" class="img-fluid">
+          <p class="title">João Pessoa - Solar Tambaú</p>
+          <p class="desc">
+            R$ 1200 por dia <br>
+            3 Quartos de frente para o mar <br>
+            Cancelamento gratuíto
+          </p>
+          <div class="rating">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 245
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="place">
+          <img src="https://via.placeholder.com/350x200" alt="Piscina Solar Tambaú" class="img-fluid">
+          <p class="title">João Pessoa - Solar Tambaú</p>
+          <p class="desc">
+            R$ 1200 por dia <br>
+            3 Quartos de frente para o mar <br>
+            Cancelamento gratuíto
+          </p>
+          <div class="rating">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 245
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="place">
+          <img src="https://via.placeholder.com/350x200" alt="Piscina Solar Tambaú" class="img-fluid">
+          <p class="title">João Pessoa - Solar Tambaú</p>
+          <p class="desc">
+            R$ 1200 por dia <br>
+            3 Quartos de frente para o mar <br>
+            Cancelamento gratuíto
+          </p>
+          <div class="rating">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 245
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#" rel="Acomodações">Veja todas as acomodações</a>
+  </div>
+</section>
+
+<section class="full-video">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-12">
+        <figure>
+        	<video src="videos/promo.mov" poster="https://via.placeholder.com/1110x624" ></video>
+        	<!-- <figcaption>WishGo Promo video goes here.</figcaption> -->
+        </figure>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="cta-full">
+  <div class="container bg-shadow">
+
+    <div class="row">
+      <div class="col-md-2 offset-md-10 text-center link">
+        <a href="#">Cadastre-se</a>
+      </div>
+    </div>
+
+    <div class="row ">
+      <div class="col-md-7 desc">
+        <p>Seja um anfitrião</p>
+        <p>Receba R$900 por semana</p>
+        <p>Coloque seu imóvel para faturar para você</p>
+
+        <a href="#" class="btn btn-hollow">Saiba Mais</a>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="destiny">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="header">
+          Lugares desejados
+        </h2>
+      </div>
+    </div>
+    <div class="row">
+
+      <div class="col-md-12 flex margin-bottom">
+
+        <div class="item" style="background-image: url(https://via.placeholder.com/369x250);" >
+          <img src="images/places/2.jpg" alt="" class="img-fluid">
+          <a href="#"><span class="plus"><span>+</span></span></a>
+          <span class="location">João Pessoa - Brasil</span>
+        </div>
+        <div class="item" style="background-image: url(https://via.placeholder.com/369x250);" >
+          <img src="images/places/3.jpg" alt="" class="img-fluid">
+          <a href="#"><span class="plus"><span>+</span></span></a>
+          <span class="location">João Pessoa - Brasil</span>
+        </div>
+        <div class="item" style="background-image: url(https://via.placeholder.com/369x250);" >
+          <img src="images/places/4.jpg" alt="" class="img-fluid">
+          <a href="#"><span class="plus"><span>+</span></span></a>
+          <span class="location">João Pessoa - Brasil</span>
+        </div>
+
+      </div>
+    </div>
+    <div class="row">
+
+      <div class="col-md-12 flex margin-bottom">
+
+        <div class="item" style="background-image: url(https://via.placeholder.com/369x250);" >
+          <img src="images/places/5.jpg" alt="" class="img-fluid">
+          <a href="#"><span class="plus"><span>+</span></span></a>
+          <span class="location">João Pessoa - Brasil</span>
+        </div>
+        <div class="item" style="background-image: url(https://via.placeholder.com/369x250);" >
+          <img src="images/places/6.jpg" alt="" class="img-fluid">
+          <a href="#"><span class="plus"><span>+</span></span></a>
+          <span class="location">João Pessoa - Brasil</span>
+        </div>
+        <div class="item" style="background-image: url(https://via.placeholder.com/369x250);" >
+          <img src="images/places/7.jpg" alt="" class="img-fluid">
+          <a href="#"><span class="plus"><span>+</span></span></a>
+          <span class="location">João Pessoa - Brasil</span>
+        </div>
+
+      </div>
+    </div>
+    <div class="row">
+
+      <div class="col-md-12 flex">
+
+        <div class="item" style="background-image: url(https://via.placeholder.com/369x250);" >
+          <img src="images/places/8.jpg" alt="" class="img-fluid">
+          <a href="#"><span class="plus"><span>+</span></span></a>
+          <span class="location">João Pessoa - Brasil</span>
+        </div>
+        <div class="item" style="background-image: url(https://via.placeholder.com/369x250);" >
+          <img src="images/places/9.jpg" alt="" class="img-fluid">
+          <a href="#"><span class="plus"><span>+</span></span></a>
+          <span class="location">João Pessoa - Brasil</span>
+        </div>
+        <div class="item" style="background-image: url(https://via.placeholder.com/369x250);" >
+          <img src="images/places/10.jpg" alt="" class="img-fluid">
+          <a href="#"><span class="plus"><span>+</span></span></a>
+          <span class="location">João Pessoa - Brasil</span>
+        </div>
+
+      </div>
+    </div>
+
+
+  <div class="text-center"><a href="#" class="btn btn-hollow">Veja mais</a></div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+
+    <div class="row bg-gray">
+      <div class="col-xs-3 text-right">
+        <ul>
+        <form method="get" id="formlangfooter">
+          <li>
+            <select name="l" style="width:150px;background:transparent;border:2px solid #ffffff;color:#ffffff;background-color:#62c2d0;" onchange="this.form.submit()">
+              <option value="de">Deutsch</option>
+              <option value="es">Español</option>
+              <option value="en">English</option>
+              <option value="pt" selected="">Português</option>
+            </select>
+          </li>
+         <input type="hidden" name="c" value="brl">
+        </form>
+
+        <form method="get" id="formcurrfooter">
+          <li>
+            <select name="c" style="width:150px;background:transparent;border:2px solid #ffffff;color:#ffffff;background-color:#62c2d0;" onchange="this.form.submit()">
+              <option value="eu">Euro</option>
+              <option value="usd">USD</option>
+              <option value="brl" selected="">BRL</option>
+            </select>
+          </li>
+          <input type="hidden" name="l" value="pt">
+        </form>
+        </ul>
+      </div>
+      <div class="col-xs-3">
+        <ul>
+          <li><a href="#">Seja um anfitrião</a></li>
+          <li><a href="#">Seja um investidor<a></li>
+        </ul>
+      </div>
+      <div class="col-xs-3">
+        <ul>
+          <li><a href="#">Segurança</a></li>
+          <li><a href="#">Política de uso<a></li>
+        </ul>
+      </div>
+      <!-- <div class="col-md-3">
+        <ul>
+          <li><a href="#">Condições</a></li>
+          <li><a href="#">Política de privacidade<a></li>
+          <li><a href="#">Mapa do site</a></li>
+        </ul>
+      </div> -->
+    </div>
+
+    <div class="row border-gray">
+      <div class="col-md-10 no-padding-left">©WishGo - Todos os direitos reservados</div>
+      <div class="col-md-2 text-right no-padding-right">
+        <img src="images/footer-wishgo-logo.png" alt="Logo WishGo">
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<script src="javascript/jquery.min.js" charset="utf-8"></script>
+<script src="javascript/bootstrap.min.js" charset="utf-8"></script>
+<script src="javascript/script.js" charset="utf-8"></script>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5ae77c63227d3d7edc24d9bd/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+</body>
+</html>

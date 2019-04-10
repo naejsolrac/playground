@@ -1,0 +1,36 @@
+.anfitriao
+  color: $cinzaA
+
+  .img-margin
+    margin-top: 30px
+    margin-bottom: 60px
+
+  img
+    @include media-breakpoint-down(sm)
+      
+      display: block
+      margin: 0 auto
+
+
+  h1
+    font-size: 25px
+    color: $azul
+    margin: 25px 0
+
+    &:first-child
+      margin-top: 0
+
+.innver-nav
+  margin-top: 115px
+  margin-bottom: 95px
+  li
+    padding: 6px 20px 6px 0
+    border-right: 2px solid $azul
+
+    a
+      color: $azul
+      text-transform: uppercase
+
+    &:last-child
+      padding-right: 0
+      border-right: none

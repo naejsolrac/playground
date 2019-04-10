@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Blocos</title>
+
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel='stylesheet' href='https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css' type='text/css' />
+
+  <style media="screen">
+
+  body {
+    padding-top: 220px;
+    font-family: 'PT Serif', serif;
+  }
+
+  @media (max-width: 991px)
+  {
+
+    .booking-form-wrapper div[class^="col-md-"]
+    {
+      margin-bottom: 30px;
+    }
+
+  }
+
+
+
+  @media (max-width: 991px) {
+    .place {
+      height: 220px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .place {
+      height: 293px;
+    }
+  }
+
+
+  .place {
+    /* height: 290px; */
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+  .places h2 {
+    font-size: 42px;
+    margin: 60px 0 30px 0;
+    color: #61c2d0;
+  }
+
+  .place a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #61c2d0;
+    text-align: center;
+    background-color: #eeeeee59;
+    border: 1px solid #61c2d0;
+    border-radius: 4px;
+  }
+
+  .form-control {
+    border-color: #61c2d0;
+  }
+
+  .btn, .btn:hover {
+    background-color: #61c2d0;
+    color: white;
+  }
+
+  </style>
+
+</head>
+<body style="">
+<div style="height: 30px;"></div>
+
+<section class="booking-form-wrapper">
+
+  <div class="container">
+    <div class="row">
+
+      <form class="booking-form" action="" method="post">
+
+        <div class="col-md-2 col-sm-4 col-xs-6">
+          <div class="input-group">
+            <span class="input-group-addon"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span></span>
+            <input type="text" class="form-control" id="countries_list" aria-describedby="inputGroupSuccess2Status" placeholder="Country">
+          </div>
+        </div>
+
+        <div class="col-md-2 col-sm-4 col-xs-6">
+          <div class="input-group">
+            <span class="input-group-addon"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></span>
+            <input type="text" class="form-control" id="cities_list" aria-describedby="inputGroupSuccess2Status" placeholder="City">
+          </div>
+        </div>
+
+        <div class="col-md-2 col-sm-4 col-xs-6">
+          <div class="input-group">
+            <span class="input-group-addon"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span></span>
+            <input type="text" class="form-control" id="check_in" aria-describedby="inputGroupSuccess2Status" placeholder="Check-in">
+          </div>
+        </div>
+
+        <div class="col-md-2 col-sm-4 col-xs-6">
+          <div class="input-group">
+            <span class="input-group-addon"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span></span>
+            <input type="text" class="form-control" id="check_out" aria-describedby="inputGroupSuccess2Status" placeholder="Check-out">
+          </div>
+        </div>
+
+        <div class="col-md-2 col-sm-4 col-xs-6">
+          <div class="input-group">
+            <span class="input-group-addon"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></span>
+            <input type="number" class="form-control" id="qtd_guests" aria-describedby="inputGroupSuccess2Status" placeholder="Guests">
+          </div>
+        </div>
+
+        <div class="col-md-2 col-sm-4 col-xs-6">
+          <div class="input-group">
+            <button type="submit" class="btn btn-block" name="button"><span class="glyphicon glyphicon-search"></span></button>
+            <!-- <input type="submit" class="form-control glyphicon glyphicon-search" id="qtd_guests" aria-describedby="inputGroupSuccess2Status" placeholder="Guests"> -->
+          </div>
+        </div>
+
+      </form>
+
+    </div>
+  </div>
+
+</section>
+
+<div style="height: 30px;"></div>
+
+<section class="places text-center">
+  <h2>Melhores Destinos</h2>
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-4 col-sm-4 col-xs-4" >
+        <div class="place"style="background-image:url(http://via.placeholder.com/350x350);"><a href="#"></a></div>
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-4" >
+        <div class="place"style="background-image:url(http://via.placeholder.com/350x350);"><a href="#"></a></div>
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-4" >
+        <div class="place"style="background-image:url(http://via.placeholder.com/350x350);"><a href="#"></a></div>
+      </div>
+
+    </div>
+
+    <div class="row" style="margin-top: 30px;">
+
+      <div class="col-md-4 col-sm-4 col-xs-4" >
+        <div class="place"style="background-image:url(http://via.placeholder.com/350x350);"><a href="#"></a></div>
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-4" >
+        <div class="place"style="background-image:url(http://via.placeholder.com/350x350);"><a href="#"></a></div>
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-4" >
+        <div class="place"style="background-image:url(http://via.placeholder.com/350x350);"><a href="#"></a></div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<div style="height: 30px;"></div>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+<script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  crossorigin="anonymous"></script>
+
+  <script type="text/javascript">
+
+    $(function(){
+
+      var countries = ["United States", "Canada", "Afghanistan", "Albania", "Algeria", "American Samoa", "Andorra", "Angola", "Anguilla", "Antarctica", "Antigua and/or Barbuda", "Argentina", "Armenia", "Aruba", "Australia", "Austria", "Azerbaijan", "Bahamas", "Bahrain", "Bangladesh", "Barbados", "Belarus", "Belgium", "Belize", "Benin", "Bermuda", "Bhutan", "Bolivia", "Bosnia and Herzegovina", "Botswana", "Bouvet Island", "Brazil", "British lndian Ocean Territory", "Brunei Darussalam", "Bulgaria", "Burkina Faso", "Burundi", "Cambodia", "Cameroon", "Cape Verde", "Cayman Islands", "Central African Republic", "Chad", "Chile", "China", "Christmas Island", "Cocos (Keeling) Islands", "Colombia", "Comoros", "Congo", "Cook Islands", "Costa Rica", "Croatia (Hrvatska)", "Cuba", "Cyprus", "Czech Republic", "Denmark", "Djibouti", "Dominica", "Dominican Republic", "East Timor", "Ecudaor", "Egypt", "El Salvador", "Equatorial Guinea", "Eritrea", "Estonia", "Ethiopia", "Falkland Islands (Malvinas)", "Faroe Islands", "Fiji", "Finland", "France", "France, Metropolitan", "French Guiana", "French Polynesia", "French Southern Territories", "Gabon", "Gambia", "Georgia", "Germany", "Ghana", "Gibraltar", "Greece", "Greenland", "Grenada", "Guadeloupe", "Guam", "Guatemala", "Guinea", "Guinea-Bissau", "Guyana", "Haiti", "Heard and Mc Donald Islands", "Honduras", "Hong Kong", "Hungary", "Iceland", "India", "Indonesia", "Iran (Islamic Republic of)", "Iraq", "Ireland", "Israel", "Italy", "Ivory Coast", "Jamaica", "Japan", "Jordan", "Kazakhstan", "Kenya", "Kiribati", "Korea, Democratic People's Republic of", "Korea, Republic of", "Kuwait", "Kyrgyzstan", "Lao People's Democratic Republic", "Latvia", "Lebanon", "Lesotho", "Liberia", "Libyan Arab Jamahiriya", "Liechtenstein", "Lithuania", "Luxembourg", "Macau", "Macedonia", "Madagascar", "Malawi", "Malaysia", "Maldives", "Mali", "Malta", "Marshall Islands", "Martinique", "Mauritania", "Mauritius", "Mayotte", "Mexico", "Micronesia, Federated States of", "Moldova, Republic of", "Monaco", "Mongolia", "Montserrat", "Morocco", "Mozambique", "Myanmar", "Namibia", "Nauru", "Nepal", "Netherlands", "Netherlands Antilles", "New Caledonia", "New Zealand", "Nicaragua", "Niger", "Nigeria", "Niue", "Norfork Island", "Northern Mariana Islands", "Norway", "Oman", "Pakistan", "Palau", "Panama", "Papua New Guinea", "Paraguay", "Peru", "Philippines", "Pitcairn", "Poland", "Portugal", "Puerto Rico", "Qatar", "Reunion", "Romania", "Russian Federation", "Rwanda", "Saint Kitts and Nevis", "Saint Lucia", "Saint Vincent and the Grenadines", "Samoa", "San Marino", "Sao Tome and Principe", "Saudi Arabia", "Senegal", "Seychelles", "Sierra Leone", "Singapore", "Slovakia", "Slovenia", "Solomon Islands", "Somalia", "South Africa", "South Georgia South Sandwich Islands", "Spain", "Sri Lanka", "St. Helena", "St. Pierre and Miquelon", "Sudan", "Suriname", "Svalbarn and Jan Mayen Islands", "Swaziland", "Sweden", "Switzerland", "Syrian Arab Republic", "Taiwan", "Tajikistan", "Tanzania, United Republic of", "Thailand", "Togo", "Tokelau", "Tonga", "Trinidad and Tobago", "Tunisia", "Turkey", "Turkmenistan", "Turks and Caicos Islands", "Tuvalu", "Uganda", "Ukraine", "United Arab Emirates", "United Kingdom", "United States minor outlying islands", "Uruguay", "Uzbekistan", "Vanuatu", "Vatican City State", "Venezuela", "Vietnam", "Virigan Islands (British)", "Virgin Islands (U.S.)", "Wallis and Futuna Islands", "Western Sahara", "Yemen", "Yugoslavia", "Zaire", "Zambia", "Zimbabwe"];
+
+      $( "#countries_list" ).autocomplete({
+        source: countries
+      });
+
+      var cities = [ "Água Branca", "Aguiar", "Alagoa Grande", "Alagoa Nova", "Alagoinha", "Alcantil", "Algodão de Jandaíra", "Alhandra", "Amparo", "Aparecida", "Araçagi", "Arara", "Araruna", "Areia", "Areia de Baraúnas", "Areial", "Aroeiras", "Assunção", "Baía da Traição", "Bananeiras", "Baraúna", "Barra de Santa Rosa", "Barra de Santana", "Barra de São Miguel", "Bayeux", "Belém", "Belém do Brejo do Cruz", "Bernardino Batista", "Boa Ventura", "Boa Vista", "Bom Jesus", "Bom Sucesso", "Bonito de Santa Fé", "Boqueirão", "Borborema", "Brejo do Cruz", "Brejo dos Santos", "Caaporã", "Cabaceiras", "Cabedelo", "Cachoeira dos Índios", "Cacimba de Areia", "Cacimba de Dentro", "Cacimbas", "Caiçara", "Cajazeiras", "Cajazeirinhas", "Caldas Brandão", "Camalaú", "Campina Grande", "Campo de Santana", "Capim", "Caraúbas", "Carrapateira", "Casserengue", "Catingueira", "Catolé do Rocha", "Caturité", "Conceição", "Condado", "Conde", "Congo", "Coremas", "Coxixola", "Cruz do Espírito Santo", "Cubati", "Cuité", "Cuité de Mamanguape", "Cuitegi", "Curral de Cima", "Curral Velho", "Damião", "Desterro", "Diamante", "Dona Inês", "Duas Estradas", "Emas", "Esperança", "Fagundes", "Frei Martinho", "Gado Bravo", "Guarabira", "Gurinhém", "Gurjão", "Ibiara", "Igaracy", "Imaculada", "Ingá", "Itabaiana", "Itaporanga", "Itapororoca", "Itatuba", "Jacaraú", "Jericó", "João Pessoa", "Juarez Távora", "Juazeirinho", "Junco do Seridó", "Juripiranga", "Juru", "Lagoa", "Lagoa de Dentro", "Lagoa Seca", "Lastro", "Livramento", "Logradouro", "Lucena", "Mãe d'Água", "Malta", "Mamanguape", "Manaíra", "Marcação", "Mari", "Marizópolis", "Massaranduba", "Mataraca", "Matinhas", "Mato Grosso", "Maturéia", "Mogeiro", "Montadas", "Monte Horebe", "Monteiro", "Mulungu", "Natuba", "Nazarezinho", "Nova Floresta", "Nova Olinda", "Nova Palmeira", "Olho d'Água", "Olivedos", "Ouro Velho", "Parari", "Passagem", "Patos", "Paulista", "Pedra Branca", "Pedra Lavrada", "Pedras de Fogo", "Pedro Régis", "Piancó", "Picuí", "Pilar", "Pilões", "Pilõezinhos", "Pirpirituba", "Pitimbu", "Pocinhos", "Poço Dantas", "Poço de José de Moura", "Pombal", "Prata", "Princesa Isabel", "Puxinanã", "Queimadas", "Quixabá", "Remígio", "Riachão", "Riachão do Bacamarte", "Riachão do Poço", "Riacho de Santo Antônio", "Riacho dos Cavalos", "Rio Tinto", "Salgadinho", "Salgado de São Félix", "Santa Cecília", "Santa Cruz", "Santa Helena", "Santa Inês", "Santa Luzia", "Santa Rita", "Santa Teresinha", "Santana de Mangueira", "Santana dos Garrotes", "Santarém", "Santo André", "São Bentinho", "São Bento", "São Domingos de Pombal", "São Domingos do Cariri", "São Francisco", "São João do Cariri", "São João do Rio do Peixe", "São João do Tigre", "São José da Lagoa Tapada", "São José de Caiana", "São José de Espinharas", "São José de Piranhas", "São José de Princesa", "São José do Bonfim", "São José do Brejo do Cruz", "São José do Sabugi", "São José dos Cordeiros", "São José dos Ramos", "São Mamede", "São Miguel de Taipu", "São Sebastião de Lagoa de Roça", "São Sebastião do Umbuzeiro", "Sapé", "Seridó", "Serra Branca", "Serra da Raiz", "Serra Grande", "Serra Redonda", "Serraria", "Sertãozinho", "Sobrado", "Solânea", "Soledade", "Sossêgo", "Sousa", "Sumé", "Taperoá", "Tavares", "Teixeira", "Tenório", "Triunfo", "Uiraúna", "Umbuzeiro", "Várzea", "Vieirópolis", "Vista Serrana", "Zabelê" ];
+
+      $( "#cities_list" ).autocomplete({
+        source: cities
+      });
+
+
+      var booked_days = {};
+
+      booked_days[ new Date( '2018/05/22' )] = new Date( '2018/05/22' );
+      booked_days[ new Date( '2018/05/23' )] = new Date( '2018/05/23' );
+      booked_days[ new Date( '2018/05/27' )] = new Date( '2018/05/27' );
+      booked_days[ new Date( '2018/05/28' )] = new Date( '2018/05/28' );
+      booked_days[ new Date( '2018/05/29' )] = new Date( '2018/05/29' );
+
+      generate_calendar($("#check_in"), booked_days);
+
+      $("#check_in").change(function(){
+        generate_calendar($("#check_out"), booked_days, $(this).val());
+      });
+
+    });
+
+    function generate_calendar($element, $dates, $first_date = 0)
+    {
+      $element.datepicker("destroy");
+      $element.datepicker({
+            minDate:$first_date,
+            dateFormat: 'dd/mm/yy',
+            dayNames: ['Domingo','Segunda','Terça','Quarta','Quinta','Sexta','Sábado'],
+            dayNamesMin: ['D','S','T','Q','Q','S','S','D'],
+            dayNamesShort: ['Dom','Seg','Ter','Qua','Qui','Sex','Sáb','Dom'],
+            monthNames: ['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'],
+            monthNamesShort: ['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez'],
+            nextText: 'Próximo',
+            prevText: 'Anterior',
+            beforeShowDay: function( date ) {
+                              var highlight = $dates[date];
+                              if( highlight ) {
+                                   return [false, '', ''];
+                              } else {
+                                   return [true, '', ''];
+                              }
+                           },
+
+      });
+    }
+
+  </script>
+
+</body>
+</html>

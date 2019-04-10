@@ -1,0 +1,247 @@
+// Vars
+$azul:  #61c2d0
+$cinzaA: #7a7a7a
+$cinzaB: #cdcdcd
+$bgColor: #f0f0f0
+
+// imports
+@import ../../bower_components/breakpoint-sass/stylesheets/breakpoint
+
+body
+  font-family: 'PT Serif'
+  background-color: $bgColor
+
+  a
+    text-decoration: none
+
+.nav
+  li
+    a
+      &:hover
+        background-color: transparent
+
+.navbar
+  // background-color: purple
+  padding: 0
+  margin-top: 60px - 17px
+  border-radius: 0
+
+.navbar-right
+  margin-right: -30px
+  padding-top: 25px
+
+  a
+    color: $cinzaA
+
+  .blue
+    a
+      color: $azul
+
+
+
+.hero
+  padding: 130px 0
+
+  .flex
+    // background-color: red
+
+  p
+    font-size: 28px
+    color: $cinzaA
+    margin-top: 30px
+    margin-bottom: 70px
+
+  input
+    padding: 10px 60px
+    width: 565px
+    font-size: 20px
+
+  button
+    padding: 12px 50px
+    flex: 0 0 128px
+    margin-left: 10px
+    background-color: $azul
+    border: none
+    color: white
+    border-radius: 2px
+    font-size: 20px
+
+.wished-places, .experiences
+
+  h2
+    color: $azul
+    font-size: 25px
+    margin: 35px 0 60px 0
+
+  a
+    text-transform: uppercase
+    color: $azul
+    font-size: 12px
+    display: inline-block
+    margin-top: 20px
+
+  .margin-top
+    margin-top: 50px
+
+  .place
+    position: relative
+    text-align: center
+    background-color: white
+
+    .tag
+      position: absolute
+      width: 200px
+      font-size: 12px
+      padding: 14px 0
+      text-transform: uppercase
+      background-color: white
+      color: $cinzaA
+      top: -22px
+      letter-spacing: 1px
+      left: 50%
+      margin-left: -100px
+
+    .title
+      font-size: 18px
+      padding: 20px 0 10px 0
+
+    .desc
+      font-size: 14px
+      color: $cinzaA
+      margin-bottom: 20px
+
+    .rating
+      font-size: 13px
+      color: $azul
+      padding-bottom: 20px
+
+      i
+        margin-right: 3px
+
+.experiences
+
+  h2
+    margin: 60px 0 30px 0
+
+.full-video
+  padding: 60px 0
+
+.cta-full
+
+  .bg-shadow
+    background-color: white
+    height: 380px
+    text-align: center
+    box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.3)
+
+  .link
+    padding: 25px 0
+
+    a
+      color: $azul
+
+  .desc
+    margin-top: 45px
+
+    p:nth-child(1)
+      color: $cinzaA
+      font-size: 15px
+      text-transform: uppercase
+      letter-spacing: 2px
+
+    p:nth-child(2)
+      color: black
+      font-size: 38px
+
+    p:nth-child(3)
+      color: $cinzaA
+      font-size: 12px
+      text-transform: uppercase
+
+    .btn-hollow
+      border: 3px solid $azul
+      border-radius: 0
+      text-transform: uppercase
+      font-size: 12px
+      color: $azul
+      margin-top: 60px
+
+.destiny
+
+  .flex
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: space-between
+
+  .item
+    position: relative
+    height: 250px
+    width: calc(1/3*100% - (1 - 1/3)*1px)
+    background-color: tomato
+
+    .plus
+      position: absolute
+      top: 80px
+      left: -28px
+      margin: 0 50%
+      border: 1px solid white
+      border-radius: 50%
+      color: white
+      font-size: 32px
+
+      span
+        margin: 0 14px
+
+  .margin-bottom
+    margin-bottom: 1px
+
+  h2
+    color: $azul
+    font-size: 25px
+    margin: 60px 0 60px 0
+
+  .location
+    position: absolute
+    font-size: 16px
+    text-align: center
+    background-color: $azul
+    color: white
+    width: 100%
+    bottom: 0
+    padding: 20px 0
+
+  .btn-hollow
+    border: 2px solid $azul
+    border-radius: 0
+    text-transform: uppercase
+    font-size: 12px
+    color: $azul
+    margin-top: 60px
+    padding: 20px 50px
+
+footer
+  .no-padding-right
+    padding-right: 0
+
+  .no-padding-left
+    padding-left: 0
+
+  .bg-gray
+    background-color: $cinzaB
+    color: $cinzaA
+    height: 205px
+    margin-top: 135px
+    ul
+      list-style: none
+      margin-top: 60px
+
+      li
+        margin-bottom: 10px
+        a
+          color: $cinzaA
+
+  .border-gray
+    margin-top: 10px
+    border-top: 2px solid $cinzaB
+    padding: 20px 0 40px 0

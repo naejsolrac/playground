@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Header</title>
+
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel='stylesheet' href='https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css' type='text/css' />
+  <link rel='stylesheet' href='bjqs.css' type='text/css' />
+
+  <style media="screen">
+
+  body {
+    font-family: 'PT Serif', serif;
+  }
+
+  @media (max-width: 991px)
+  {
+
+    .booking-form-wrapper div[class^="col-md-"]
+    {
+      margin-bottom: 30px;
+    }
+
+  }
+
+  .booking-form-wrapper {
+    position: relative;
+  }
+
+  .hero {
+    background-image: url(http://wishgo.com/1/wp-content/uploads/2018/05/nyc-1920x980.jpg);
+    height: 720px;
+    position: relative;
+  }
+
+  .booking-form-wrapper {
+    position: absolute;
+    width: 100%;
+    top: 30%;
+  }
+
+  .input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #61c2d0;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #61c2d0;
+    border-radius: 4px;
+  }
+
+  .title {
+    color: white;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, .5);
+    margin-bottom: 30px;
+  }
+
+  .title h1 {
+    font-size: 84px;
+  }
+
+  .title p {
+    font-size: 42px;
+  }
+
+  .form-control {
+    border-color: #61c2d0;
+  }
+
+  .btn, .btn:hover {
+    background-color: #61c2d0;
+    color: white;
+  }
+
+  .navbar {
+    padding: 15px 0 15px 0;
+  }
+
+  .navbar .navbar-brand {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .navbar .navbar-right li a:hover, .navbar .navbar-right li a:focus {
+    background-color: transparent;
+  }
+
+  .navbar a, .navbar-toggle collapsed {
+    color: white;
+  }
+
+  .navbar .in, .navbar .collapsing {
+    background-color: #61c2d0;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    z-index: 99999999;
+  }
+
+  .navbar .in li a:hover {
+    color: #61c2d0;
+    background-color: white;
+  }
+
+  .navbar .navbar-toggle {
+    color: white;
+    font-size: 22px;
+  }
+
+  </style>
+
+</head>
+<body style="">
+<!-- <div style="height: 30px;"></div> -->
+
+<div class="hero">
+
+
+  <nav class="navbar">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </button>
+      <a class="navbar-brand" href="#"><img src="http://wishgo.com/1/wp-content/uploads/2018/05/wishgo-logo-padv-46x46.png" alt="" aria-hidden="true" role="presentation" class="custom-header-image"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#a">Disponibilize o seu Lugar</a></li>
+        <li><a href="#b">Negocie o seu Lugar</a></li>
+        <li><a href="#c">Viagens de Sonhos</a></li>
+        <li><a href="#d">Deseje</a></li>
+        <li><a href="#e">Seja Wish</a></li>
+
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+  <section class="booking-form-wrapper">
+
+    <div class="title text-center">
+      <h1>WishGo</h1>
+      <p>Luxo é a nossa experiência</p>
+    </div>
+
+    <div class="container" style="">
+      <div class="row">
+
+        <form class="booking-form" action="" method="post">
+
+          <div class="col-md-2 col-sm-4 col-xs-6 col-md-offset-1">
+            <div class="input-group">
+              <span class="input-group-addon"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></span>
+              <input type="text" class="form-control" id="cities_list" aria-describedby="inputGroupSuccess2Status" placeholder="City">
+            </div>
+          </div>
+
+          <div class="col-md-2 col-sm-4 col-xs-6">
+            <div class="input-group">
+              <span class="input-group-addon"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span></span>
+              <input type="text" class="form-control" id="check_in" aria-describedby="inputGroupSuccess2Status" placeholder="Check-in">
+            </div>
+          </div>
+
+          <div class="col-md-2 col-sm-4 col-xs-6">
+            <div class="input-group">
+              <span class="input-group-addon"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span></span>
+              <input type="text" class="form-control" id="check_out" aria-describedby="inputGroupSuccess2Status" placeholder="Check-out">
+            </div>
+          </div>
+
+          <div class="col-md-2 col-sm-4 col-xs-6">
+            <div class="input-group">
+              <span class="input-group-addon"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></span>
+              <input type="number" class="form-control" id="qtd_guests" aria-describedby="inputGroupSuccess2Status" placeholder="Guests">
+            </div>
+          </div>
+
+          <div class="col-md-2 col-sm-4 col-xs-6">
+            <button type="submit" class="btn btn-block" name="button">GO</button>
+          </div>
+
+        </form>
+
+      </div>
+    </div>
+
+  </section>
+</div>
+
+<div style="height: 30px;"></div>
+
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+<script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <script type="text/javascript">
+
+    $(function(){
+
+      var cities = [ "Água Branca", "Aguiar", "Alagoa Grande", "Alagoa Nova", "Alagoinha", "Alcantil", "Algodão de Jandaíra", "Alhandra", "Amparo", "Aparecida", "Araçagi", "Arara", "Araruna", "Areia", "Areia de Baraúnas", "Areial", "Aroeiras", "Assunção", "Baía da Traição", "Bananeiras", "Baraúna", "Barra de Santa Rosa", "Barra de Santana", "Barra de São Miguel", "Bayeux", "Belém", "Belém do Brejo do Cruz", "Bernardino Batista", "Boa Ventura", "Boa Vista", "Bom Jesus", "Bom Sucesso", "Bonito de Santa Fé", "Boqueirão", "Borborema", "Brejo do Cruz", "Brejo dos Santos", "Caaporã", "Cabaceiras", "Cabedelo", "Cachoeira dos Índios", "Cacimba de Areia", "Cacimba de Dentro", "Cacimbas", "Caiçara", "Cajazeiras", "Cajazeirinhas", "Caldas Brandão", "Camalaú", "Campina Grande", "Campo de Santana", "Capim", "Caraúbas", "Carrapateira", "Casserengue", "Catingueira", "Catolé do Rocha", "Caturité", "Conceição", "Condado", "Conde", "Congo", "Coremas", "Coxixola", "Cruz do Espírito Santo", "Cubati", "Cuité", "Cuité de Mamanguape", "Cuitegi", "Curral de Cima", "Curral Velho", "Damião", "Desterro", "Diamante", "Dona Inês", "Duas Estradas", "Emas", "Esperança", "Fagundes", "Frei Martinho", "Gado Bravo", "Guarabira", "Gurinhém", "Gurjão", "Ibiara", "Igaracy", "Imaculada", "Ingá", "Itabaiana", "Itaporanga", "Itapororoca", "Itatuba", "Jacaraú", "Jericó", "João Pessoa", "Juarez Távora", "Juazeirinho", "Junco do Seridó", "Juripiranga", "Juru", "Lagoa", "Lagoa de Dentro", "Lagoa Seca", "Lastro", "Livramento", "Logradouro", "Lucena", "Mãe d'Água", "Malta", "Mamanguape", "Manaíra", "Marcação", "Mari", "Marizópolis", "Massaranduba", "Mataraca", "Matinhas", "Mato Grosso", "Maturéia", "Mogeiro", "Montadas", "Monte Horebe", "Monteiro", "Mulungu", "Natuba", "Nazarezinho", "Nova Floresta", "Nova Olinda", "Nova Palmeira", "Olho d'Água", "Olivedos", "Ouro Velho", "Parari", "Passagem", "Patos", "Paulista", "Pedra Branca", "Pedra Lavrada", "Pedras de Fogo", "Pedro Régis", "Piancó", "Picuí", "Pilar", "Pilões", "Pilõezinhos", "Pirpirituba", "Pitimbu", "Pocinhos", "Poço Dantas", "Poço de José de Moura", "Pombal", "Prata", "Princesa Isabel", "Puxinanã", "Queimadas", "Quixabá", "Remígio", "Riachão", "Riachão do Bacamarte", "Riachão do Poço", "Riacho de Santo Antônio", "Riacho dos Cavalos", "Rio Tinto", "Salgadinho", "Salgado de São Félix", "Santa Cecília", "Santa Cruz", "Santa Helena", "Santa Inês", "Santa Luzia", "Santa Rita", "Santa Teresinha", "Santana de Mangueira", "Santana dos Garrotes", "Santarém", "Santo André", "São Bentinho", "São Bento", "São Domingos de Pombal", "São Domingos do Cariri", "São Francisco", "São João do Cariri", "São João do Rio do Peixe", "São João do Tigre", "São José da Lagoa Tapada", "São José de Caiana", "São José de Espinharas", "São José de Piranhas", "São José de Princesa", "São José do Bonfim", "São José do Brejo do Cruz", "São José do Sabugi", "São José dos Cordeiros", "São José dos Ramos", "São Mamede", "São Miguel de Taipu", "São Sebastião de Lagoa de Roça", "São Sebastião do Umbuzeiro", "Sapé", "Seridó", "Serra Branca", "Serra da Raiz", "Serra Grande", "Serra Redonda", "Serraria", "Sertãozinho", "Sobrado", "Solânea", "Soledade", "Sossêgo", "Sousa", "Sumé", "Taperoá", "Tavares", "Teixeira", "Tenório", "Triunfo", "Uiraúna", "Umbuzeiro", "Várzea", "Vieirópolis", "Vista Serrana", "Zabelê" ];
+
+      $( "#cities_list" ).autocomplete({
+        source: cities
+      });
+
+
+      var booked_days = {};
+
+      booked_days[ new Date( '2018/05/22' )] = new Date( '2018/05/22' );
+      booked_days[ new Date( '2018/05/23' )] = new Date( '2018/05/23' );
+      booked_days[ new Date( '2018/05/27' )] = new Date( '2018/05/27' );
+      booked_days[ new Date( '2018/05/28' )] = new Date( '2018/05/28' );
+      booked_days[ new Date( '2018/05/29' )] = new Date( '2018/05/29' );
+
+      generate_calendar($("#check_in"), booked_days);
+
+      $("#check_in").change(function(){
+        generate_calendar($("#check_out"), booked_days, $(this).val());
+      });
+
+    });
+
+    function generate_calendar($element, $dates, $first_date = 0)
+    {
+      $element.datepicker("destroy");
+      $element.datepicker({
+            minDate:$first_date,
+            dateFormat: 'dd/mm/yy',
+            dayNames: ['Domingo','Segunda','Terça','Quarta','Quinta','Sexta','Sábado'],
+            dayNamesMin: ['D','S','T','Q','Q','S','S','D'],
+            dayNamesShort: ['Dom','Seg','Ter','Qua','Qui','Sex','Sáb','Dom'],
+            monthNames: ['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'],
+            monthNamesShort: ['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez'],
+            nextText: 'Próximo',
+            prevText: 'Anterior',
+            beforeShowDay: function( date ) {
+                              var highlight = $dates[date];
+                              if( highlight ) {
+                                   return [false, '', ''];
+                              } else {
+                                   return [true, '', ''];
+                              }
+                           },
+
+      });
+    }
+
+  </script>
+
+</body>
+</html>

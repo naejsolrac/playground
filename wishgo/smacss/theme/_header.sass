@@ -1,0 +1,78 @@
+// .nav
+//   li
+//     a
+//       &:hover
+//         background-color: transparent
+//
+// .navbar
+//   // background-color: purple
+//   padding: 0
+//   margin-top: 60px - 17px
+//   border-radius: 0
+//
+// .navbar-right
+//   margin-right: -30px
+//   padding-top: 25px
+//
+//   a
+//     color: $cinzaA
+//
+//   .blue
+//     a
+//       color: $azul
+
+#nav
+  padding: 60px 0
+
+  nav, .navbar-brand
+    padding-top: 0
+    padding-bottom: 0
+
+  select
+    padding: 7px 15px
+    color: $azul
+    background-color: transparent
+    border: 1px solid $azul
+
+  a
+    color: $cinzaA
+
+    &:hover
+      text-decoration: underline
+
+  .nav-item:last-child a
+    color: $azul
+
+  .navbar-toggler
+    color: $azul
+    font-size: 32px
+
+  .collapse.show
+    background-color: $azul
+    margin-top: 25px
+    text-align: center
+    padding-top: 40px
+    padding-bottom: 40px
+
+    li a
+      color: white
+
+    select
+      padding: 7px 15px
+      color: #ffffff
+      background-color: $azul
+      border: 1px solid white
+      // width:100px;height:22px;vertical-align:top;padding:0;margin:0;background:transparent;border:0;color:white;border:0px solid white;
+
+.collapsing
+  background-color: $azul
+  padding-top: 40px
+  padding-bottom: 40px
+  margin-top: 25px
+  text-align: center
+  transition-duration: 0.001s
+
+  ul
+    li
+      a
+        color: white
